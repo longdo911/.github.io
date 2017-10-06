@@ -1,0 +1,74 @@
+@font-face{
+    font-family: Long;
+    src: url(fonts/what.otf)
+}
+@font-face{
+    font-family: Long1;
+    src: url(fonts/nani.ttf)
+}
+body{
+    background-image: url(images/totoro12.jpg);
+    background-color: #ddcece;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white
+}
+h1{
+    font-family: "Long";
+}
+h3{
+    font-family: "Long1";
+}
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+     overflow: hidden;
+    background-color: lightblue;
+}
+#nav li {
+    float: right;
+}
+
+#nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav li a:hover {
+    background-color: white;
+    color: black;
+}
+#nav li a:active {
+    background-color: yellow;
+    color: white;
+}
+#hobbies{
+    width: 250px;
+    text-align: left;
+    margin: auto;
+}
+#song{
+    width: 250px;
+    text-align: left;
+    margin: auto;
+}
+table, th, td {
+    border: 1px solid black;
+}
+tr:hover {
+    background-color: white
+}
+#hi{
+    width: 250px;
+    text-align: left;
+    margin: auto;
+}
+#notes{
+    width: 250px;
+    text-align: left;
+    margin: auto;
+}

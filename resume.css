@@ -1,0 +1,57 @@
+@font-face{
+    font-family: Long1;
+    src: url(fonts/annie.otf)
+}
+@font-face{
+    font-family: Long2;
+    src: url(fonts/nani.ttf)
+}
+body{
+    background-image: url(images/totoroo.jpg);
+    background-color: #ddcece;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white
+}
+s10{
+    font-family: "Long1";
+}
+h1{
+    font-family: "Long2";
+}
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+     overflow: hidden;
+    background-color: lightblue;
+}
+#nav li {
+    float: right;
+}
+
+#nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav li a:hover {
+    background-color: white;
+    color: red;
+}
+#nav li a:active {
+    background-color: yellow;
+    color: white;
+}
+
+#me {
+    border: solid red 3px;
+    margin: 50px;
+    padding: 75px;
+    text-align: center;
+}
+
+
