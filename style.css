@@ -7,12 +7,12 @@
     src: url(fonts/nani.ttf)
 }
 body{
-    background-image: url(images/totoro12.jpg);
+    background-image: url(images/totoro11.jpg);
     background-color: #ddcece;
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: white
+    color: black;
 }
 h1{
     font-family: "Long";
@@ -68,6 +68,9 @@ tr:hover {
     margin: auto;
 }
 #notes{
+    list-style-type: none;
+    background-color: #c5d2e8;
+    overflow: hidden;
     width: 250px;
     text-align: left;
     margin: auto;
